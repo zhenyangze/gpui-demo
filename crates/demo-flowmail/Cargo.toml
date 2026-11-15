@@ -1,0 +1,13 @@
+[package]
+name = "demo-flowmail"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+gpui.workspace = true
+gpui-kit = { path = "../gpui-kit" }
+serde.workspace = true
+serde_json.workspace = true
+
+[dev-dependencies]

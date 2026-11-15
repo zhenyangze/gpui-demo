@@ -1,0 +1,19 @@
+[package]
+name = "demo-devtoolbox"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+gpui.workspace = true
+gpui-kit = { path = "../gpui-kit" }
+serde.workspace = true
+serde_json.workspace = true
+regex.workspace = true
+sha2.workspace = true
+sha1.workspace = true
+md-5.workspace = true
+base64.workspace = true
+rand.workspace = true
+
+[dev-dependencies]
